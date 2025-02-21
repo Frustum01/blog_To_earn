@@ -1,0 +1,100 @@
+/* Background Gradient */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #121212, #3a3a3a);
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* All elements hover effect */
+h1, h2, p, input, button {
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+/* Hover: Black background, white text */
+h1:hover, h2:hover, p:hover, input:hover, button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Yellow Buttons: Glow effect + rounded borders */
+button {
+    padding: 12px;
+    margin: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(45deg, #FFD700, #FFC107);
+    color: black;
+    border-radius: 12px;
+    transition: box-shadow 0.3s ease-in-out, transform 0.2s;
+}
+
+/* Button Hover: Strong yellow glow */
+button:hover {
+    background: linear-gradient(45deg, #FFC107, #FFA000);
+    box-shadow: 0 0 15px 4px #FFD700;
+    transform: scale(1.05);
+}
+
+/* Black Buttons */
+.black-button {
+    background: black;
+    color: white;
+    border: 2px solid white;
+}
+
+/* Black Button Hover */
+.black-button:hover {
+    background: #222;
+    border-color: yellow;
+    box-shadow: 0 0 10px 2px yellow;
+}
+
+/* Inputs: Rounded borders + border color change */
+input {
+    padding: 12px;
+    margin: 8px;
+    width: 220px;
+    border: 2px solid #FFD700;
+    border-radius: 12px;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+/* Input Hover: Change border and background */
+input:hover {
+    border-color: white;
+    background-color: black;
+    color: white;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    display: inline-block;
+    transition: all 0.3s;
+    border-radius: 8px;
+}
+
+/* Sections: Add background with rounded corners */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+}
+
+/* Links Hover Effect (If needed in the future) */
+a:hover {
+    background-color: black;
+    color: white;
+}

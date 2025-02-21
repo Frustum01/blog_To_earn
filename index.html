@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog-To-Earn</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Blog-To-Earn</h1>
+
+    <button id="connectWallet">Connect Wallet</button>
+    <p id="walletAddress">Not Connected</p>
+    <p>Balance: <span id="balance">0</span> ETH</p>
+
+    <h2>Engage with a Blog</h2>
+    <input type="number" id="blogId" placeholder="Enter Blog ID"><br><br>
+    <input type="text" id="action" placeholder="Enter Action (like, comment)"><br><br>
+    <button id="engageBtn">Engage</button>
+
+    <h2>Withdraw Rewards</h2>
+    <button id="withdrawBtn">Withdraw Rewards</button>
+
+<!--<h2>Admin Functions</h2>
+    <input type="number" id="newReward" placeholder="New Reward per Engagement">
+    <button id="updateRewardBtn">Update Reward</button>
+
+    <input type="number" id="fundAmount" placeholder="Fund Contract (ETH)">
+    <button id="fundContractBtn">Fund Contract</button>-->
+
+    <script src="script.js"></script>
+</body>
+</html>
+
